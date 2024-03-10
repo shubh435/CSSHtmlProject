@@ -1,0 +1,31 @@
+#image{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: none;
+    border-radius: 50%;
+    border: 1px dotted #12EBE4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body{
+    outline: 0;
+    background-image: linear-gradient(to right top, #05372e, #0f6054, #168c80, #18bab0, #12ebe4);
+    background-repeat: no-repeat;
+    background-position: center ;
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    padding: 10% 0 0 0;
+    flex:1;
+    height: 100vh;
+}
+
+.inputBox{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    flex:1;
+    gap: 2%;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<link rel="stylesheet" href="./style.css">
+<body>
+<h1>Plot The Graph</h1>
+<p>Enter Equation:</p>
+<p><input id="equation" type="text" value="x * 2 + 17"></p>
+<p>
+<button onclick='plot("scatter")'>Scatter</button>
+<button onclick='plot("lines")'>Draw Line</button>
+</p>
+<div id="myPlot" style="width:100%;max-width:700px"></div>
+
+<script src="./index.js">
+</script>
+</body>
+</html>
